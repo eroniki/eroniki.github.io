@@ -119,11 +119,10 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-							<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Research and Projects</span></a></li>
-							<li><a href="#publications" id="publications-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Publications</span></a></li>
-							<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Resume</span></a></li>
-							<!--<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>-->
-						</ul>
+						<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Research and Projects</span></a></li>
+						<li><a href="#publications" id="publications-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Publications</span></a></li>
+						<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Resume</span></a></li>
+					</ul>
 					</nav>
 			</div>
 
@@ -131,8 +130,8 @@
 
 				<!-- Social Icons -->
 					<ul class="icons">
-						<li><a href="https://tr.linkedin.com/in/muratambarkutuk" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/eroniki" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://tr.linkedin.com/in/muratambarkutuk" class="icon fa-linkedin" target="_blank" rel="noopener noreferrer"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://github.com/eroniki" target="_blank" class="icon fa-github" rel="noopener noreferrer"><span class="label">Github</span></a></li>
 						<li><a href="mailto:murat@ambarkutuk.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
 					</ul>
 			</div>
@@ -193,37 +192,51 @@
 					</header>
 					<h3>Research Interests</h3>
 						<p style="text-align:left">
-							My research spans the intersection of <strong>robot perception</strong>, 
-							<strong>3D computer vision</strong>, and <strong>efficient deep learning systems</strong>. 
-							I focus on building scalable, real-time pipelines for autonomous perception, mapping, and 
-							decision-making. My interests include:
+							My research focuses on large-scale 3D perception systems that integrate geometry, learning,
+							and optimization. I work at the intersection of multi-view computer vision, 3D reconstruction,
+							and high-performance deep learning, with a strong emphasis on building deployable,
+							real-time pipelines. My core research areas include:
 						</p>
 
 						<ul style="text-align:left; margin-left: 1rem;">
-							<li><strong>Robot Perception & Sensor Fusion</strong> – real-time integration of RGB, depth, 
-								multi-view imagery, inertial, and geometric cues for robust environmental understanding.</li>
 
-							<li><strong>3D Reconstruction & Mapping</strong> – large-scale Gaussian Splatting, 
-								multi-view stereo (MVS), TSDF-based fusion, voxel hashing, and city-scale map generation.</li>
+							<li><strong>Multi-View Geometry & Calibration</strong> — robust estimation of camera poses,
+								refinement of extrinsics, PnP formulations, correspondence search, and large-scale aerial
+								reconstruction pipelines leveraging COLMAP, bundle adjustment, and geometric priors.</li>
 
-							<li><strong>Deep Learning Acceleration</strong> – TensorRT-based deployment, CUDA kernels, 
-								quantization, distillation (DINOv2 → YOLO), and low-latency inference for edge devices 
-								and embedded platforms.</li>
+							<li><strong>3D Reconstruction & Scene Representation</strong> — TSDF fusion, voxel hashing,
+								depth regularization, multi-view stereo, large-area mapping, and real-time
+								neural-scene representations such as 3D Gaussian Splatting for both dense and city-scale imagery.</li>
 
-							<li><strong>Localization & Pose Estimation</strong> – multi-camera geometry, PnP solvers, 
-								visual odometry, and 6DoF estimation in constrained or imperfect calibration settings.</li>
+							<li><strong>Neural Rendering & Splat-Based Vision</strong> — high-fidelity
+								Gaussian Splatting, splat compression, differentiable rendering, and
+								efficient cross-view feature fusion for fast map generation and scene understanding.</li>
 
-							<li><strong>Industrial Vision Systems</strong> – high-throughput inspection, segmentation, 
-								tracking, object detection, and multi-camera redundancy for safety-critical robotics.</li>
+							<li><strong>Depth Estimation & Regularization</strong> — multi-view depth fusion,
+								photometric and geometric consistency, winsorized regression,
+								confidence weighting, and depth-prior enhancement for complex indoor and outdoor environments.</li>
 
-							<li><strong>Machine Learning for Physical Systems</strong> – bridging geometric reasoning with 
-								learning-based models for robust performance in real environments.</li>
+							<li><strong>Real-Time Inference & Acceleration</strong> — TensorRT optimization, CUDA kernels,
+								quantization, operator fusion, batched inference scheduling, and deployment of high-throughput
+								segmentation/detection pipelines on embedded and industrial hardware.</li>
+
+							<li><strong>Object Detection, Segmentation & Tracking</strong> — distillation of
+								large foundation models (DINOv2, ViT) into lightweight detectors (YOLO),
+								multi-class segmentation for industrial settings, and robust tracking under
+								occlusion and imperfect calibration.</li>
+
+							<li><strong>Robot Perception & Mapping for Autonomy</strong> — integrating geometry and
+								learned models for localization, perception, large-scale navigation, and
+								real-time environmental understanding in dynamic or constrained settings.</li>
+
 						</ul>
 
 						<p style="text-align:left">
-							Across all areas, I enjoy developing end-to-end systems—from algorithm design to optimized 
-							deployment—that remain stable, interpretable, and production-ready at scale.
+							Overall, I design end-to-end perception systems that combine classical geometry with modern
+							deep learning to achieve fast, scalable, and production-ready 3D understanding at industrial
+							and real-world scales.
 						</p>
+
 
 					<h3>Projects</h3>
 					<ul style="text-align:left">
