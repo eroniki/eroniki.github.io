@@ -1,58 +1,110 @@
-# Murat Ambarkutuk - Personal Website
+# Murat Ambarkutuk - Personal Portfolio
 
-Portfolio website for Murat Ambarkutuk, Senior Perception Engineer at Ranpak.
+A clean, modern, and fully responsive personal portfolio website built with **Bootstrap 5**.
 
-## Recent Updates (November 2025)
+## 🎨 Features
 
-### Technology Upgrades
-- ✅ Updated Font Awesome from v5.8.1 to v6.5.1
-- ✅ Removed legacy IE8/IE9 support files
-- ✅ Changed all HTTP resources to HTTPS
-- ✅ Added modern meta tags for SEO
-- ✅ Added Open Graph and Twitter Card tags for social sharing
-- ✅ Added structured data (JSON-LD) for better search engine understanding
-- ✅ Improved accessibility with skip navigation and alt text
-- ✅ Added PWA manifest.json
-- ✅ Optimized script loading with defer attribute
-- ✅ Added missing BibTeX file for 2024 Sensors publication
+- **Modern Design**: Clean, professional layout with gradient hero section
+- **Fully Responsive**: Optimized for all devices (mobile, tablet, desktop)
+- **Bootstrap 5**: No proprietary templates, using open-source Bootstrap framework
+- **Smooth Animations**: Fade-in effects and hover animations
+- **SEO Optimized**: Structured data, meta tags, and semantic HTML
+- **Accessible**: ARIA labels, keyboard navigation support
+- **Fast Loading**: Minimal dependencies, optimized assets
+- **Easy to Customize**: Well-organized code with CSS variables
 
-### TODO: Favicon Setup
-The site now references favicon files that need to be created:
-- `images/favicon-32x32.png` (32x32 pixels)
-- `images/favicon-16x16.png` (16x16 pixels)
-- `images/apple-touch-icon.png` (180x180 pixels)
+## 🛠️ Technologies
 
-You can create these from your avatar or a logo using online tools like:
-- https://realfavicongenerator.net/
-- https://www.favicon-generator.org/
+- **HTML5**: Semantic markup
+- **CSS3**: Modern styling with flexbox and grid
+- **Bootstrap 5.3.2**: Responsive framework
+- **Bootstrap Icons 1.11.3**: Icon library
+- **Vanilla JavaScript**: No jQuery dependencies
 
-### Features
-- Responsive design using HTML5 UP's Prologue template
-- Research interests and project portfolio
-- Publication list with BibTeX downloads
-- Resume/CV link
+## 📁 Structure
 
-### Structure
 ```
-├── index.html           # Main page
-├── manifest.json        # PWA manifest
-├── CNAME               # Custom domain configuration
+eroniki.github.io/
+├── index.html              # Main HTML file
 ├── assets/
-│   ├── css/            # Stylesheets
-│   ├── js/             # JavaScript libraries
-│   └── fonts/          # Web fonts
-├── images/             # Images and avatars
-├── publications/       # BibTeX files for publications
-└── resume/             # Resume page
+│   ├── css/
+│   │   └── style.css      # Custom styles
+│   └── js/
+│       └── script.js      # Custom JavaScript
+├── images/                 # Images and favicons
+├── publications/           # Publication files (.bib, .pdf)
+├── resume/                 # Resume files
+├── manifest.json          # PWA manifest
+├── CNAME                  # Custom domain
+└── README.md              # This file
 ```
 
-## Technologies Used
-- HTML5 / CSS3
-- JavaScript (jQuery 1.11.2)
-- Font Awesome 6.5.1
-- Skel.js responsive framework
+## 🚀 Local Development
 
-## License
-Design: [HTML5 UP - Prologue](http://html5up.net) (CCA 3.0)
+1. Clone the repository:
+```bash
+git clone https://github.com/eroniki/eroniki.github.io.git
+cd eroniki.github.io
+```
 
-Content: © Murat Ambarkutuk. All rights reserved.
+2. Start a local server:
+```bash
+python3 -m http.server 8080
+```
+
+3. Open your browser:
+```
+http://localhost:8080
+```
+
+## 🎨 Customization
+
+### Colors
+Edit the CSS variables in `assets/css/style.css`:
+```css
+:root {
+    --primary-color: #0d6efd;
+    --dark-bg: #1a1a1a;
+    --light-bg: #f8f9fa;
+}
+```
+
+### Hero Gradient
+Change the gradient in `.hero-section`:
+```css
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+```
+
+### Content
+Edit `index.html` to update sections.
+
+## 📱 Sections
+
+1. **Hero** - Introduction with profile image and social links
+2. **About** - Background and education cards
+3. **Research** - Research interests in card layout
+4. **Projects** - Project timeline with links
+5. **Publications** - Academic publications with links
+6. **Contact** - Contact information and resume download
+
+## 🌐 Deployment
+
+The site is automatically deployed via GitHub Pages from the `master` branch.
+
+## 🔗 Links
+
+- **Live Site**: [ambarkutuk.com](https://ambarkutuk.com)
+- **GitHub**: [github.com/eroniki](https://github.com/eroniki)
+- **LinkedIn**: [linkedin.com/in/muratambarkutuk](http://www.linkedin.com/in/muratambarkutuk)
+
+## 📄 License
+
+- **Bootstrap**: MIT License
+- **Bootstrap Icons**: MIT License
+- **Content**: © 2025 Murat Ambarkutuk. All rights reserved.
+
+---
+
+**Built with ❤️ using Bootstrap**

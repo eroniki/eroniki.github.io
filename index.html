@@ -1,381 +1,515 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Murat Ambarkutuk | Senior Perception Engineer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="Senior Perception Engineer at Ranpak specializing in computer vision, machine learning, 3D reconstruction, and robot perception. Ph.D. in Computer Engineering from Virginia Tech." />
-		<meta name="keywords" content="perception engineering, computer vision, machine learning, 3D reconstruction, robot perception, Gaussian Splatting, deep learning, sensor fusion" />
-		<meta name="author" content="Murat Ambarkutuk" />
-		
-		<!-- Open Graph / Social Media -->
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://ambarkutuk.com/" />
-		<meta property="og:title" content="Murat Ambarkutuk | Senior Perception Engineer" />
-		<meta property="og:description" content="Senior Perception Engineer specializing in computer vision, 3D reconstruction, and robot perception. Ph.D. in Computer Engineering from Virginia Tech." />
-		<meta property="og:image" content="https://ambarkutuk.com/images/avatar.jpg" />
-		
-		<!-- Twitter Card -->
-		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:title" content="Murat Ambarkutuk | Senior Perception Engineer" />
-		<meta name="twitter:description" content="Senior Perception Engineer specializing in computer vision, 3D reconstruction, and robot perception." />
-		<meta name="twitter:image" content="https://ambarkutuk.com/images/avatar.jpg" />
-		
-		<!-- Favicons -->
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
-		<link rel="manifest" href="manifest.json" />
-		
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-		
-		<!-- Structured Data (JSON-LD) -->
-		<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Person",
-			"name": "Murat Ambarkutuk",
-			"jobTitle": "Senior Perception Engineer",
-			"worksFor": {
-				"@type": "Organization",
-				"name": "Ranpak"
-			},
-			"alumniOf": [
-				{
-					"@type": "EducationalOrganization",
-					"name": "Virginia Tech"
-				},
-				{
-					"@type": "EducationalOrganization",
-					"name": "Kocaeli University"
-				}
-			],
-			"hasCredential": [
-				{
-					"@type": "EducationalOccupationalCredential",
-					"credentialCategory": "degree",
-					"name": "Doctor of Philosophy in Computer Engineering",
-					"educationalLevel": "Doctorate",
-					"recognizedBy": {
-						"@type": "EducationalOrganization",
-						"name": "Virginia Tech"
-					}
-				},
-				{
-					"@type": "EducationalOccupationalCredential",
-					"credentialCategory": "degree",
-					"name": "Master of Science in Mechanical Engineering",
-					"educationalLevel": "Master's",
-					"recognizedBy": {
-						"@type": "EducationalOrganization",
-						"name": "Virginia Tech"
-					}
-				},
-				{
-					"@type": "EducationalOccupationalCredential",
-					"credentialCategory": "degree",
-					"name": "Bachelor of Science in Mechatronics Engineering",
-					"educationalLevel": "Bachelor's",
-					"recognizedBy": {
-						"@type": "EducationalOrganization",
-						"name": "Kocaeli University"
-					}
-				}
-			],
-			"url": "https://ambarkutuk.com",
-			"sameAs": [
-				"https://github.com/eroniki",
-				"https://tr.linkedin.com/in/muratambarkutuk"
-			],
-			"email": "murat@ambarkutuk.com"
-		}
-		</script>
-	</head>
-	<body>
-		<!-- Skip Navigation Link for Accessibility -->
-		<a href="#main" class="skip-to-main" style="position:absolute;left:-9999px;z-index:999;padding:1em;background:#4acaa8;color:#fff;text-decoration:none;">Skip to main content</a>
-		<style>.skip-to-main:focus{left:50%;transform:translateX(-50%);top:1em;}</style>
-		
-		<!-- Header -->
-		<div id="header">
-			<div class="top">
-				<!-- Logo -->
-					<div id="logo">
-						<!-- Change Avatar (Circular) -->
-						<span class="image avatar48"><img src="images/avatar.jpg" alt="Murat Ambarkutuk - Senior Perception Engineer" /></span>
-						<h1 id="title" style="letter-spacing: -1px;">Murat Ambarkutuk, Ph.D.</h1>
-						<p>Sr. Perception Engineer</p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Murat Ambarkutuk, Ph.D. | Senior Perception Engineer</title>
+    <meta name="description" content="Senior Perception Engineer specializing in computer vision, machine learning, 3D reconstruction, and robot perception. Ph.D. in Computer Engineering from Virginia Tech.">
+    <meta name="keywords" content="perception engineering, computer vision, machine learning, 3D reconstruction, robot perception, Gaussian Splatting, deep learning, sensor fusion">
+    <meta name="author" content="Murat Ambarkutuk">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ambarkutuk.com/">
+    <meta property="og:title" content="Murat Ambarkutuk | Senior Perception Engineer">
+    <meta property="og:description" content="Senior Perception Engineer specializing in computer vision, 3D reconstruction, and robot perception.">
+    <meta property="og:image" content="https://ambarkutuk.com/images/Murat-ambarkutuk-grad-student.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Murat Ambarkutuk | Senior Perception Engineer">
+    <meta name="twitter:description" content="Senior Perception Engineer specializing in computer vision, 3D reconstruction, and robot perception.">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Murat Ambarkutuk",
+        "jobTitle": "Senior Perception Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Ranpak"
+        },
+        "alumniOf": [
+            {"@type": "EducationalOrganization", "name": "Virginia Tech"},
+            {"@type": "EducationalOrganization", "name": "Kocaeli University"}
+        ],
+        "url": "https://ambarkutuk.com",
+        "sameAs": [
+            "https://github.com/eroniki",
+            "http://www.linkedin.com/in/muratambarkutuk"
+        ],
+        "email": "murat@ambarkutuk.com"
+    }
+    </script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Murat Ambarkutuk, Ph.D.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center text-white">
+                    <img src="images/Murat-ambarkutuk-grad-student.jpg" alt="Murat Ambarkutuk" class="rounded-circle mb-4 hero-avatar shadow-lg" width="200" height="200">
+                    <h1 class="display-3 fw-bold mb-3">Murat Ambarkutuk, Ph.D.</h1>
+                    <p class="lead mb-4 fs-3">Senior Perception Engineer</p>
+                    <p class="fs-5 mb-4">Computer Vision • 3D Reconstruction • Robot Perception</p>
+                    <div class="social-links mb-4">
+                        <a href="https://github.com/eroniki" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg mx-2" aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="http://www.linkedin.com/in/muratambarkutuk" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg mx-2" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="mailto:murat@ambarkutuk.com" class="btn btn-outline-light btn-lg mx-2" aria-label="Email">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+                    <a href="#about" class="btn btn-light btn-lg px-5">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5 bg-white" id="about">
+        <div class="container py-5">
+            <h2 class="text-center mb-5 display-5 fw-bold">About Me</h2>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <p class="lead mb-4">
+                        I am a Senior Perception Engineer at <a href="https://www.rsquaredrobotics.com/" target="_blank">RSquared Robotics</a>, 
+                        a division of <a href="https://www.ranpak.com" target="_blank">Ranpak</a>, where I design, build, and deploy 
+                        computer vision and machine learning systems for real-time industrial automation. My work spans sensor fusion, 
+                        3D reconstruction, deep learning acceleration, and production-grade inference systems.
+                    </p>
+                    
+                    <h4 class="mt-5 mb-4 fw-bold">Education</h4>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="text-primary mb-3">
+                                        <i class="bi bi-mortarboard-fill fs-1"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">Ph.D.</h5>
+                                    <h6 class="card-subtitle mb-3 text-muted">Computer Engineering</h6>
+                                    <p class="card-text fw-semibold">Virginia Tech</p>
+                                    <p class="small text-secondary">Robot perception, multi-sensor fusion, 3D reconstruction, large-scale aerial mapping</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="text-primary mb-3">
+                                        <i class="bi bi-mortarboard-fill fs-1"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">M.S.</h5>
+                                    <h6 class="card-subtitle mb-3 text-muted">Mechanical Engineering</h6>
+                                    <p class="card-text fw-semibold">Virginia Tech</p>
+                                    <p class="small text-secondary">Wireless propagation modeling, indoor localization techniques</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm border-0">
+                                <div class="card-body">
+                                    <div class="text-primary mb-3">
+                                        <i class="bi bi-mortarboard-fill fs-1"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold">B.Sc.</h5>
+                                    <h6 class="card-subtitle mb-3 text-muted">Mechatronics Engineering</h6>
+                                    <p class="card-text fw-semibold">Kocaeli University</p>
+                                    <p class="small text-secondary">Embedded systems, robotics, machine vision, sensing platforms</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="py-5 bg-light" id="research">
+        <div class="container py-5">
+            <h2 class="text-center mb-5 display-5 fw-bold">Research Interests</h2>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <p class="lead mb-5 text-center">
+                        My research focuses on large-scale 3D perception systems that integrate geometry, learning, and optimization. 
+                        I work at the intersection of multi-view computer vision, 3D reconstruction, and high-performance deep learning.
+                    </p>
+                    
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm hover-lift">
+                                <div class="card-body p-4">
+                                    <div class="mb-3">
+                                        <i class="bi bi-camera text-primary fs-2"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">Multi-View Geometry & Calibration</h5>
+                                    <p class="card-text">Robust camera pose estimation, bundle adjustment, COLMAP pipelines, and large-scale aerial reconstruction.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm hover-lift">
+                                <div class="card-body p-4">
+                                    <div class="mb-3">
+                                        <i class="bi bi-box text-primary fs-2"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">3D Reconstruction & Scene Representation</h5>
+                                    <p class="card-text">TSDF fusion, voxel hashing, multi-view stereo, and neural scene representations including 3D Gaussian Splatting.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm hover-lift">
+                                <div class="card-body p-4">
+                                    <div class="mb-3">
+                                        <i class="bi bi-cpu text-primary fs-2"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">Real-Time Inference & Acceleration</h5>
+                                    <p class="card-text">TensorRT optimization, CUDA kernels, quantization, operator fusion, and deployment on embedded hardware.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm hover-lift">
+                                <div class="card-body p-4">
+                                    <div class="mb-3">
+                                        <i class="bi bi-robot text-primary fs-2"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">Object Detection & Tracking</h5>
+                                    <p class="card-text">Model distillation (DINOv2, ViT to YOLO), multi-class segmentation, robust tracking under challenging conditions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm hover-lift">
+                                <div class="card-body p-4">
+                                    <div class="mb-3">
+                                        <i class="bi bi-graph-up text-primary fs-2"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">Depth Estimation & Regularization</h5>
+                                    <p class="card-text">Multi-view depth fusion, photometric consistency, winsorized regression, confidence weighting.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm hover-lift">
+                                <div class="card-body p-4">
+                                    <div class="mb-3">
+                                        <i class="bi bi-grid-3x3 text-primary fs-2"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">Neural Rendering & Splat-Based Vision</h5>
+                                    <p class="card-text">High-fidelity Gaussian Splatting, splat compression, differentiable rendering, cross-view feature fusion.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+	<section class="py-5 bg-white" id="projects">
+		<div class="container py-5">
+			<h2 class="text-center mb-5 display-5 fw-bold">Projects</h2>
+			<div class="row">
+				<div class="col-lg-10 mx-auto">
+					<div class="list-group">
+
+						<!-- Decision Tower 2.0 -->
+						<div class="list-group-item border-0 mb-3 shadow-sm hover-lift">
+							<div class="d-flex w-100 justify-content-between align-items-start">
+								<div>
+									<h5 class="mb-2 fw-bold">Decision Tower 2.0</h5>
+									<p class="mb-1 text-secondary">Full perception stack rewrite for high-throughput packaging automation; multi-camera calibration, YOLO-based detection, and TensorRT-accelerated inference.</p>
+								</div>
+								<span class="badge bg-primary">2025</span>
+							</div>
+						</div>
+
+						<!-- Quality Tower (CGV & HLI MVP) -->
+						<div class="list-group-item border-0 mb-3 shadow-sm hover-lift">
+							<div class="d-flex w-100 justify-content-between align-items-start">
+								<div>
+									<h5 class="mb-2 fw-bold">Quality Tower – Carton Graphic Validation &amp; Hazard Label Inspection</h5>
+									<p class="mb-1 text-secondary">Multi-class segmentation pipeline for on-line carton graphic validation and hazard-label inspection in industrial settings.</p>
+								</div>
+								<span class="badge bg-primary">2025</span>
+							</div>
+						</div>
+
+						<!-- libinference -->
+						<div class="list-group-item border-0 mb-3 shadow-sm hover-lift">
+							<div class="d-flex w-100 justify-content-between align-items-start">
+								<div>
+									<h5 class="mb-2 fw-bold">libinference – TensorRT Inference Library</h5>
+									<p class="mb-1 text-secondary">Header-only, cross-platform ONNX/TensorRT engine with dynamic shapes, multi-GPU support, CUDA stream parallelism, and unified logging/configuration.</p>
+								</div>
+								<span class="badge bg-primary">2024–2025</span>
+							</div>
+						</div>
+
+						<!-- Depth Regularizer -->
+						<div class="list-group-item border-0 mb-3 shadow-sm hover-lift">
+							<div class="d-flex w-100 justify-content-between align-items-start">
+								<div>
+									<h5 class="mb-2 fw-bold">Depth Regularizer</h5>
+									<p class="mb-1 text-secondary">Winsorized multi-view depth fusion with polynomial regression weighting and robust confidence filtering; production-grade C++/CUDA implementation.</p>
+								</div>
+								<span class="badge bg-primary">2024–2025</span>
+							</div>
+						</div>
+
+						<!-- Collapsed projects -->
+						<div id="moreProjects" class="collapse">
+
+							<!-- TSDF Fusion with Voxel Hashing (CUDA) -->
+							<div class="list-group-item border-0 mb-3 shadow-sm hover-lift">
+								<div class="d-flex w-100 justify-content-between align-items-start">
+									<div>
+										<h5 class="mb-2 fw-bold">TSDF Fusion with Voxel Hashing (CUDA)</h5>
+										<p class="mb-1 text-secondary">Real-time TSDF integration using voxel hashing; supports depth-only and depth+color fusion with GPU-optimized memory access for large-scale mapping.</p>
+									</div>
+									<span class="badge bg-primary">2024–2025</span>
+								</div>
+							</div>
+
+							<!-- Few-Shot Logo Classification with DINOv2 -->
+							<div class="list-group-item border-0 mb-3 shadow-sm hover-lift">
+								<div class="d-flex w-100 justify-content-between align-items-start">
+									<div>
+										<h5 class="mb-2 fw-bold">Few-Shot Logo Classification with DINOv2</h5>
+										<p class="mb-1 text-secondary">Prototypical-network architecture using a frozen DINOv2 backbone and raster logo support sets for robust industrial brand and logo recognition.</p>
+									</div>
+									<span class="badge bg-primary">2025</span>
+								</div>
+							</div>
+
+							<!-- Knowledge Distillation – DINOv3 → YOLOv8 -->
+							<div class="list-group-item border-0 mb-3 shadow-sm hover-lift">
+								<div class="d-flex w-100 justify-content-between align-items-start">
+									<div>
+										<h5 class="mb-2 fw-bold">Knowledge Distillation – DINOv3 to YOLOv8</h5>
+										<p class="mb-1 text-secondary">Distilling high-capacity DINOv3 features into lightweight YOLOv8 models to achieve real-time, high-accuracy detection and segmentation on embedded hardware.</p>
+									</div>
+									<span class="badge bg-primary">2025</span>
+								</div>
+							</div>
+
+							<!-- Legacy Projects -->
+							<a href="https://vtnews.vt.edu/articles/2018/05/icat-steelcaseaward.html" target="_blank" class="list-group-item list-group-item-action border-0 mb-3 shadow-sm hover-lift">
+								<div class="d-flex w-100 justify-content-between align-items-start">
+									<div>
+										<h5 class="mb-2 fw-bold">Large-Scale Occupant Localization</h5>
+										<p class="mb-1 text-secondary">Evaluation of classroom engagement using advanced localization and sensing techniques.</p>
+									</div>
+									<span class="badge bg-primary">2018</span>
+								</div>
+							</a>
+
+							<a href="http://murat.ambarkutuk.com/rf-localization/" target="_blank" class="list-group-item list-group-item-action border-0 mb-3 shadow-sm hover-lift">
+								<div class="d-flex w-100 justify-content-between align-items-start">
+									<div>
+										<h5 class="mb-2 fw-bold">Indoor Robot Localization</h5>
+										<p class="mb-1 text-secondary">Radio wave propagation approximation for indoor localization of mobile robots.</p>
+									</div>
+									<span class="badge bg-primary">2016</span>
+								</div>
+							</a>
+
+							<div class="list-group-item border-0 mb-3 shadow-sm">
+								<div class="d-flex w-100 justify-content-between align-items-start">
+									<div>
+										<h5 class="mb-2 fw-bold">Motion Control System</h5>
+										<p class="mb-1 text-secondary">Automatic road-profiling system with advanced motion control and embedded sensing.</p>
+									</div>
+									<span class="badge bg-primary">2016</span>
+								</div>
+							</div>
+
+							<a href="http://smartsens.robomaden.com" target="_blank" class="list-group-item list-group-item-action border-0 mb-3 shadow-sm hover-lift">
+								<div class="d-flex w-100 justify-content-between align-items-start">
+									<div>
+										<h5 class="mb-2 fw-bold">Mine Automation</h5>
+										<p class="mb-1 text-secondary">Remote tracking and monitoring of underground environments via wireless sensor networks.</p>
+									</div>
+									<span class="badge bg-primary">2013</span>
+								</div>
+							</a>
+
+							<a href="http://www.mecfuture.com" target="_blank" class="list-group-item list-group-item-action border-0 mb-3 shadow-sm hover-lift">
+								<div class="d-flex w-100 justify-content-between align-items-start">
+									<div>
+										<h5 class="mb-2 fw-bold">Remote Learning Laboratory</h5>
+										<p class="mb-1 text-secondary">Mecfuture – Internet-based mechatronics laboratory enabling remote experimentation and teaching.</p>
+									</div>
+									<span class="badge bg-primary">2013</span>
+								</div>
+							</a>
+
+						</div>
+
+						<!-- Show More Button -->
+						<div class="text-center mt-3">
+							<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#moreProjects" aria-expanded="false" aria-controls="moreProjects" id="showMoreBtn">
+								<span class="show-text">Show More Projects <i class="bi bi-chevron-down"></i></span>
+								<span class="hide-text d-none">Show Less <i class="bi bi-chevron-up"></i></span>
+							</button>
+						</div>
+
 					</div>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-						<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Research and Projects</span></a></li>
-						<li><a href="#publications" id="publications-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Publications</span></a></li>
-						<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Resume</span></a></li>
-					</ul>
-					</nav>
-			</div>
-
-			<div class="bottom">
-
-				<!-- Social Icons -->
-					<ul class="icons">
-						<li><a href="https://tr.linkedin.com/in/muratambarkutuk" class="icon fa-linkedin" target="_blank" rel="noopener noreferrer"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/eroniki" target="_blank" class="icon fa-github" rel="noopener noreferrer"><span class="label">Github</span></a></li>
-						<li><a href="mailto:murat@ambarkutuk.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
-					</ul>
-			</div>
-
-		</div>
-
-		<!-- Main -->
-		<div id="main">
-			<!-- Intro -->
-			<section id="top" class="one dark cover">
-				<div class="container">
-				
-					<header>
-						<h2 class="alt">Hi, I'm <strong>Murat</strong>!</h2>
-
-						<p style="text-align:left">
-							I am a Senior Perception Engineer at, <a href="https://www.rsquaredrobotics.com/" target="_blank">RSquared Robotics</a> a division of <a href="https://www.ranpak.com" target="_blank">Ranpak</a> where I design, build, and deploy 
-							computer vision and machine learning systems for real-time industrial automation. My work spans sensor fusion, 3D reconstruction, deep learning acceleration, and production-grade inference systems.
-						</p>
-
-						<p style="text-align:left">
-							I completed my <strong>Ph.D.</strong> in Computer Engineering at 
-							<a href="https://www.vt.edu" target="_blank">Virginia Tech</a> under 
-							<a href="#" target="_blank">Paul Plassmann</a> and <a href="#" target="_blank">Creed F. Jones</a>. 
-							My doctoral work focused on robot perception, scalable multi-sensor fusion, computational modeling, 
-							and high-fidelity 3D reconstruction in complex environments. My work also included large-scale mapping from aerial images.
-						</p>
-
-						<p style="text-align:left">
-							Prior to my doctoral studies, I earned my <strong>M.S.</strong> in Mechanical Engineering from 
-							<a href="https://www.vt.edu" target="_blank">Virginia Tech</a> under 
-							<a href="#" target="_blank">Tomonari Furukawa</a>, where I developed a 
-							<a href="#">wireless propagation model</a> and an <a href="#">indoor localization technique</a> 
-							tailored for challenging non-line-of-sight environments.
-						</p>
-
-						<p style="text-align:left">
-							I received my <strong>B.Sc.</strong> in Mechatronics Engineering from 
-							<a href="http://www.kocaeli.edu.tr/" target="_blank">Kocaeli University</a>, Turkey. 
-							My early work spanned embedded systems, robotics, machine vision, and automated sensing platforms.
-						</p>
-
-						<p style="text-align:left">
-							My technical interests include <a href="#">Robot Perception</a>, <a href="#">Real-Time 3D Vision</a>, 
-							<a href="#">Gaussian Splatting</a>, <a href="#">Deep Learning Acceleration</a>, 
-							<a href="#">Localization & Mapping</a>, and <a href="#">Large-Scale Computer Vision Systems</a>. 
-							I enjoy building end-to-end systems that bridge theory, engineering, and deployment.
-						</p>
-					</header>
 				</div>
-			</section>
-			<!-- Portfolio -->
-			<section id="portfolio" class="two">
-				<div class="container">
-
-					<header>
-						<h2>Research and Projects</h2>
-					</header>
-					<h3>Research Interests</h3>
-						<p style="text-align:left">
-							My research focuses on large-scale 3D perception systems that integrate geometry, learning,
-							and optimization. I work at the intersection of multi-view computer vision, 3D reconstruction,
-							and high-performance deep learning, with a strong emphasis on building deployable,
-							real-time pipelines. My core research areas include:
-						</p>
-
-						<ul style="text-align:left; margin-left: 1rem;">
-
-							<li><strong>Multi-View Geometry & Calibration</strong> — robust estimation of camera poses,
-								refinement of extrinsics, PnP formulations, correspondence search, and large-scale aerial
-								reconstruction pipelines leveraging COLMAP, bundle adjustment, and geometric priors.</li>
-
-							<li><strong>3D Reconstruction & Scene Representation</strong> — TSDF fusion, voxel hashing,
-								depth regularization, multi-view stereo, large-area mapping, and real-time
-								neural-scene representations such as 3D Gaussian Splatting for both dense and city-scale imagery.</li>
-
-							<li><strong>Neural Rendering & Splat-Based Vision</strong> — high-fidelity
-								Gaussian Splatting, splat compression, differentiable rendering, and
-								efficient cross-view feature fusion for fast map generation and scene understanding.</li>
-
-							<li><strong>Depth Estimation & Regularization</strong> — multi-view depth fusion,
-								photometric and geometric consistency, winsorized regression,
-								confidence weighting, and depth-prior enhancement for complex indoor and outdoor environments.</li>
-
-							<li><strong>Real-Time Inference & Acceleration</strong> — TensorRT optimization, CUDA kernels,
-								quantization, operator fusion, batched inference scheduling, and deployment of high-throughput
-								segmentation/detection pipelines on embedded and industrial hardware.</li>
-
-							<li><strong>Object Detection, Segmentation & Tracking</strong> — distillation of
-								large foundation models (DINOv2, ViT) into lightweight detectors (YOLO),
-								multi-class segmentation for industrial settings, and robust tracking under
-								occlusion and imperfect calibration.</li>
-
-							<li><strong>Robot Perception & Mapping for Autonomy</strong> — integrating geometry and
-								learned models for localization, perception, large-scale navigation, and
-								real-time environmental understanding in dynamic or constrained settings.</li>
-
-						</ul>
-
-						<p style="text-align:left">
-							Overall, I design end-to-end perception systems that combine classical geometry with modern
-							deep learning to achieve fast, scalable, and production-ready 3D understanding at industrial
-							and real-world scales.
-						</p>
-
-
-					<h3>Projects</h3>
-					<ul style="text-align:left">
-						<li>Large-scale Occupant Localization for Evaluation of Classroom Engagement <a
-								href="https://vtnews.vt.edu/articles/2018/05/icat-steelcaseaward.html" target="_blank">News
-								Article</a>
-						</li>
-						<hr>
-						<li>Indoor Robot Localization with Radio Wave Propagation Approximation, (2016) <a
-								href="http://murat.ambarkutuk.com/rf-localization/" target="_blank">Web</a>, <a
-								href="https://ieeexplore.ieee.org/abstract/document/8170432/" target="_blank">Paper</a></li>
-						<hr>
-						<li>Motion Control System for an Automatic Road-profiling System, (2016)</li>
-						<hr>
-						<li>Dimensioning Box with Kinect Sensor based on Image Processing, (2013) <a
-								href="http://prezi.com/t0u_oxm_7aay/?utm_campaign=share&amp;utm_medium=copy"
-								target="_blank">Slideshow</a>
-						</li>
-						<hr>
-						<li>Mine Automation and Remote Tracking via Wireless Sensor Networks, (2013), <a
-								href="http://smartsens.robomaden.com" target="_blank">Web</a></li>
-						<hr>
-						<li>Remote Learning Laboratory, Mecfuture (2013), ​<a href="http://www.mecfuture.com​ "
-								target="_blank">Web</a> - ​<a href="http://youtu.be/npgaTLuG6xI " target="_blank">YouTube</a></li>
-						<hr>
-						<li>Lane Departure Detection System, (2013), <a
-								href="http://prezi.com/-xjhsw8ykzdy/?utm_campaign=share&amp;utm_medium=copy"
-								target="_blank">Slideshow</a>
-						</li>
-						<hr>
-						<li>Wearless Magnetic Breaking System, (2012)</li>
-						<hr>
-						<li>The Design of an Arduino &amp; Android controlled Ball & Plate Game, (2011)</li>
-						<hr>
-						<li>The ​ Crawling Mechanism based on Theo Jansen's Linkage​ Model​, (2010)</li>
-					</ul>
-				</div>
-			</section>
-			
-			<section id="publications" class="three">
-			<div class="container">
-				<header><h2>Publications</h2></header>
-				<ul style="text-align:left">
-
-				<li>
-					Ambarkutuk, M., &amp; Plassmann, P. E. (2024). Modeling and analysis of dispersive propagation of structural waves for vibro-localization. <em>Sensors</em>, 24(23), 7744. DOI: <a href="https://doi.org/10.3390/s24237744" target="_blank">10.3390/s24237744</a>.  
-					<br>
-					<a href="https://doi.org/10.3390/s24237744" target="_blank">Paper</a> • <a href="https://eroniki.github.io/publications/ambarkutuk2024sensors.bib" target="_blank">BibTeX</a>
-				</li>
-
-				<hr>
-
-				<li>
-					Ambarkutuk, M., & Furukawa, T. (2017). A grid-based indoor radiolocation technique based on a spatially coherent path-loss model. <em>IEEE International Conference on Multisensor Fusion and Integration (MFI)</em>, 220–226.  
-					<br>
-					<a href="https://ieeexplore.ieee.org/abstract/document/8170432/" target="_blank">Paper</a> • <a href="http://eroniki.github.io/publications/ambarkutuk2017grid.bib" target="_blank">BibTeX</a>
-				</li>
-
-				<hr>
-
-				<li>
-					Ocak, H., Ambarkutuk, M., Küçükyıldız, G., & Karakaya, S. (2015). Image processing-based package volume detection with Kinect. <em>23rd Signal Processing and Communications Applications Conference (SIU)</em>, 515–518. IEEE.  
-					<br>
-					<a href="http://ieeexplore.ieee.org/document/7129873/" target="_blank">Paper</a> • <a href="https://eroniki.github.io/publications/ocak2015image.bib" target="_blank">BibTeX</a>
-				</li>
-
-				<hr>
-
-				<li>
-					Guner, H. E., Tekelioglu, O., Ambarkutuk, M., Bilginer, L., Askin, A., & Erkan, S. (2015). An internet-based mechatronics laboratory for vocational and university-level training. <em>ISITES 2015: International Symposium on Innovative Technologies in Engineering and Science</em>.  
-					<br>
-					<a href="https://eroniki.github.io/publications/Meslek-Yuksek-Okullari-Ve-Universiteler-Icin-Internet-Tabanli-Mekatronik-Laboratuvari-Uygulamasi.pdf" target="_blank">PDF</a> • <a href="https://eroniki.github.io/publications/Meslek-Yuksek-Okullari-Ve-Universiteler-Icin-Internet-Tabanli-Mekatronik-Laboratuvari-Uygulamasi.bib" target="_blank">BibTeX</a>
-				</li>
-
-				<hr>
-
-				<li>
-					Guner, H. E., Tekelioglu, O., Ambarkutuk, M., Bilginer, L., Askin, A., & Erkan, S. (2014). Distance mechatronics laboratory for SMEs and vocational high schools in Turkey. <em>Mechatronika 2014</em>, Brno, Czech Republic.  
-					<br>
-					<a href="https://eroniki.github.io/publications/Distance-Mechatronic-Laboratory-For-Smes-Universities-and-Vocational-High-Schools-in-Turkey.pdf" target="_blank">PDF</a> • <a href="https://eroniki.github.io/publications/Distance-Mechatronic-Laboratory-For-Smes-Universities-and-Vocational-High-Schools-in-Turkey.bib" target="_blank">BibTeX</a>
-				</li>
-
-				<hr>
-
-				<li>
-					Guner, H. E., Ambarkutuk, M., Bilginer, L., & Oysu, C. (2013). Magnetic braking and speed stabilization. <em>Mechanika: Proceedings of the 18th International Conference</em>, Kaunas, Lithuania.  
-					<br>
-					<a href="https://eroniki.github.io/publications/Magnetic-Braking-and-Speed-Stabilization.pdf" target="_blank">PDF</a> • <a href="https://eroniki.github.io/publications/Magnetic-Braking-and-Speed-Stabilization.bib" target="_blank">BibTeX</a>
-				</li>
-
-				<hr>
-
-				<li>
-					Guner, H. E., & Ambarkutuk, M. (2013). Building wireless mesh sensor networks using XBee and Arduino. <em>Computer Science and Engineering 2013</em>, Lviv Polytechnic National University.  
-					<br>
-					<a href="https://github.com/eroniki/eroniki.github.io/raw/master/publications/Building-Wireless-Mesh-Sensor-Networks-Using-Xbee-And-Arduino.pdf" target="_blank">PDF</a> • <a href="https://github.com/eroniki/eroniki.github.io/raw/master/publications/Building-Wireless-Mesh-Sensor-Networks-Using-Xbee-And-Arduino.bib" target="_blank">BibTeX</a>
-				</li>
-
-				<hr>
-
-				<li>
-					<a href="https://github.com/eroniki/eroniki.github.io/raw/master/publications/publications.bib" target="_blank">
-					All Publications (BibTeX)
-					</a>
-				</li>
-
-				</ul>
 			</div>
-			</section>
-
-
-			<!-- About Me -->
-				<section id="about" class="three">
-					<div class="container">
-
-						<header>
-							<h2>My Resume</h2>
-						</header>
-
-						<!--<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
-						<p><a href="https://github.com/eroniki/Curriculum-Vitae/raw/master/Ambarkutuk_Resume.pdf" target="_blank" class="button scrolly">PDF</a></p>
-					</div>
-				</section>
-			</div>
-
-		<!-- Footer -->
-		<div id="footer">
-			<!-- Copyright -->
-			<ul class="copyright">
-				<li>&copy; Murat Ambarkutuk. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
 		</div>
+	</section>
 
-		<!-- Scripts -->
-		<script defer src="assets/js/jquery.min.js"></script>
-		<script defer src="assets/js/jquery.scrolly.min.js"></script>
-		<script defer src="assets/js/jquery.scrollzer.min.js"></script>
-		<script defer src="assets/js/skel.min.js"></script>
-		<script defer src="assets/js/util.js"></script>
-		<script defer src="assets/js/main.js"></script>
-	</body>
+
+    <!-- Publications -->
+    <section class="py-5 bg-light" id="publications">
+        <div class="container py-5">
+            <h2 class="text-center mb-5 display-5 fw-bold">Publications</h2>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="card mb-4 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Modeling and analysis of dispersive propagation of structural waves for vibro-localization</h5>
+                            <p class="card-text text-secondary">Ambarkutuk, M., & Plassmann, P. E. (2024). <em>Sensors</em>, 24(23), 7744.</p>
+                            <div class="d-flex gap-2">
+                                <a href="https://doi.org/10.3390/s24237744" target="_blank" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-file-text me-1"></i>Paper
+                                </a>
+                                <a href="https://eroniki.github.io/publications/ambarkutuk2024sensors.bib" target="_blank" class="btn btn-outline-secondary btn-sm">
+                                    <i class="bi bi-code me-1"></i>BibTeX
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card mb-4 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">A grid-based indoor radiolocation technique</h5>
+                            <p class="card-text text-secondary">Ambarkutuk, M., & Furukawa, T. (2017). <em>IEEE International Conference on Multisensor Fusion and Integration (MFI)</em>, 220–226.</p>
+                            <div class="d-flex gap-2">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/8170432/" target="_blank" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-file-text me-1"></i>Paper
+                                </a>
+                                <a href="http://eroniki.github.io/publications/ambarkutuk2017grid.bib" target="_blank" class="btn btn-outline-secondary btn-sm">
+                                    <i class="bi bi-code me-1"></i>BibTeX
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card mb-4 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold">Image processing-based package volume detection with Kinect</h5>
+                            <p class="card-text text-secondary">Ocak, H., Ambarkutuk, M., et al. (2015). <em>23rd Signal Processing and Communications Applications Conference (SIU)</em>, 515–518.</p>
+                            <div class="d-flex gap-2">
+                                <a href="http://ieeexplore.ieee.org/document/7129873/" target="_blank" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-file-text me-1"></i>Paper
+                                </a>
+                                <a href="https://eroniki.github.io/publications/ocak2015image.bib" target="_blank" class="btn btn-outline-secondary btn-sm">
+                                    <i class="bi bi-code me-1"></i>BibTeX
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mt-5">
+                        <a href="https://github.com/eroniki/eroniki.github.io/raw/master/publications/publications.bib" target="_blank" class="btn btn-primary btn-lg">
+                            <i class="bi bi-download me-2"></i>All Publications (BibTeX)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5 bg-white" id="contact">
+        <div class="container py-5">
+            <h2 class="text-center mb-5 display-5 fw-bold">Contact</h2>
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <div class="mb-5">
+                        <a href="https://github.com/eroniki/Curriculum-Vitae/raw/master/Ambarkutuk_Resume.pdf" target="_blank" class="btn btn-primary btn-lg px-5">
+                            <i class="bi bi-file-pdf me-2"></i>Download Resume
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="mailto:murat@ambarkutuk.com" class="btn btn-outline-primary btn-lg">
+                            <i class="bi bi-envelope me-2"></i>Email
+                        </a>
+                        <a href="https://github.com/eroniki" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-lg">
+                            <i class="bi bi-github me-2"></i>GitHub
+                        </a>
+                        <a href="http://www.linkedin.com/in/muratambarkutuk" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-lg">
+                            <i class="bi bi-linkedin me-2"></i>LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Murat Ambarkutuk. All rights reserved.</p>
+            <p class="mb-0 small mt-2 text-muted">Built with Bootstrap</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
