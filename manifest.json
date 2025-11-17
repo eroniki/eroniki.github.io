@@ -1,0 +1,22 @@
+{
+  "name": "Murat Ambarkutuk - Portfolio",
+  "short_name": "M. Ambarkutuk",
+  "description": "Senior Perception Engineer specializing in computer vision, machine learning, and 3D reconstruction",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4acaa8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
