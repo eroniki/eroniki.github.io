@@ -198,3 +198,12 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Resume call-to-action */
+.nav-resume-btn {
+    white-space: nowrap;
+}
+
+.hero-resume-btn {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}

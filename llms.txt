@@ -1,0 +1,15 @@
+# Murat Ambarkutuk, Ph.D.
+
+> Principal Perception Engineer specializing in computer vision, machine learning, 3D reconstruction, and robot perception. Ph.D. in Computer Engineering, Virginia Tech.
+
+## Resume
+
+- [Resume (PDF)](https://github.com/eroniki/Curriculum-Vitae/raw/master/Ambarkutuk_Resume.pdf): Full resume / CV
+- [Resume section on the homepage](https://murat.ambarkutuk.com/#resume)
+
+## Links
+
+- [Homepage](https://murat.ambarkutuk.com/)
+- [GitHub](https://github.com/eroniki)
+- [LinkedIn](http://www.linkedin.com/in/muratambarkutuk)
+- Email: murat@ambarkutuk.com
