@@ -84,7 +84,7 @@ Edit `index.html` to update sections.
 
 1. **Hero** - Introduction with profile image and social links
 2. **About** - Background and education cards
-3. **isaret.ai** - Featured project band with a link out to isaret.ai
+3. **isaret.ai** - Featured band for isaret.ai, the daily Turkish AI & science newsletter
 4. **Research** - Research interests in card layout
 5. **Projects** - Project timeline with links
 6. **Publications** - Academic publications with links

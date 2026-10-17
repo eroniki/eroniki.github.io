@@ -9,7 +9,8 @@
 
 ## Links
 
-- [isaret.ai](https://isaret.ai): A product built by Murat Ambarkutuk
+- [isaret.ai](https://isaret.ai): İşaret, a daily Turkish-language AI & science newsletter (AI, computer vision, NLP, robotics; every weekday morning), created by Murat Ambarkutuk and produced by AI agents
+- [isaret.ai Atom feed](https://isaret.ai/feed.xml)
 - [isaret.ai section on the homepage](https://murat.ambarkutuk.com/#isaret)
 - [Homepage](https://murat.ambarkutuk.com/)
 - [GitHub](https://github.com/eroniki)

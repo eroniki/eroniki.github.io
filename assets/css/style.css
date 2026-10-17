@@ -231,6 +231,15 @@ footer {
     opacity: 0.85;
 }
 
+.featured-subtitle {
+    opacity: 0.9;
+}
+
 .hero-isaret-btn {
     border-width: 2px;
+}
+
+.hero-isaret-pitch a {
+    text-decoration-color: rgba(255, 255, 255, 0.6);
+    text-underline-offset: 3px;
 }
