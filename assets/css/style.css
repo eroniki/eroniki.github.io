@@ -207,3 +207,30 @@ footer {
 .hero-resume-btn {
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
 }
+
+/* Featured project: isaret.ai */
+.featured-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    overflow: hidden;
+}
+
+.featured-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.featured-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.featured-eyebrow {
+    letter-spacing: 0.15em;
+    opacity: 0.85;
+}
+
+.hero-isaret-btn {
+    border-width: 2px;
+}

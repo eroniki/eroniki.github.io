@@ -84,10 +84,11 @@ Edit `index.html` to update sections.
 
 1. **Hero** - Introduction with profile image and social links
 2. **About** - Background and education cards
-3. **Research** - Research interests in card layout
-4. **Projects** - Project timeline with links
-5. **Publications** - Academic publications with links
-6. **Contact** - Contact information and resume download
+3. **isaret.ai** - Featured project band with a link out to isaret.ai
+4. **Research** - Research interests in card layout
+5. **Projects** - Project timeline with links
+6. **Publications** - Academic publications with links
+7. **Contact** - Contact information and resume download
 
 ## 🌐 Deployment
 
