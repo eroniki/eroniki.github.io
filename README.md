@@ -94,6 +94,15 @@ Edit `index.html` to update sections.
 
 The site is automatically deployed via GitHub Pages from the `master` branch.
 
+It also runs as a static-assets Cloudflare Worker (no Worker script needed). `wrangler.jsonc` serves the
+repo root and `.assetsignore` keeps repo-only files (`.git`, `README.md`, `CNAME`, ...) out of the upload.
+The Worker `name` must match the Worker in the Cloudflare dashboard (`murat-ambarkutuk-com`).
+
+```bash
+npx wrangler dev      # preview locally
+npx wrangler deploy   # deploy
+```
+
 ## 🔗 Links
 
 - **Live Site**: [murat.ambarkutuk.com](https://murat.ambarkutuk.com)
