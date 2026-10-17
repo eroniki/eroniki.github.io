@@ -84,14 +84,24 @@ Edit `index.html` to update sections.
 
 1. **Hero** - Introduction with profile image and social links
 2. **About** - Background and education cards
-3. **Research** - Research interests in card layout
-4. **Projects** - Project timeline with links
-5. **Publications** - Academic publications with links
-6. **Contact** - Contact information and resume download
+3. **isaret.ai** - Featured band for isaret.ai, the daily Turkish AI & science newsletter
+4. **Research** - Research interests in card layout
+5. **Projects** - Project timeline with links
+6. **Publications** - Academic publications with links
+7. **Contact** - Contact information and resume download
 
 ## 🌐 Deployment
 
 The site is automatically deployed via GitHub Pages from the `master` branch.
+
+It also runs as a static-assets Cloudflare Worker (no Worker script needed). `wrangler.jsonc` serves the
+repo root and `.assetsignore` keeps repo-only files (`.git`, `README.md`, `CNAME`, ...) out of the upload.
+The Worker `name` must match the Worker in the Cloudflare dashboard (`murat-ambarkutuk-com`).
+
+```bash
+npx wrangler dev      # preview locally
+npx wrangler deploy   # deploy
+```
 
 ## 🔗 Links
 

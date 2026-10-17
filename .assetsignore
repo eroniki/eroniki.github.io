@@ -1,0 +1,9 @@
+# Files that live in the repo but must not be served by the Worker
+.assetsignore
+wrangler.jsonc
+.wrangler
+.git
+.github
+node_modules
+README.md
+CNAME
